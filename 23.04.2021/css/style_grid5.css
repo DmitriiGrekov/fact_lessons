@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	background-color: #a4e6f4;
+	padding: 0px;
+}
+div{
+	background-color:#6998a3;
+	color: white;
+    text-align: center;
+    height: 118.912px;
+    border-radius: 50%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+}
+
