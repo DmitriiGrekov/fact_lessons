@@ -1,0 +1,17 @@
+input[type=text]{
+    padding: 9px;
+    border: 1px solid silver;
+}
+
+input[type=submit]{
+    padding: 10px;
+    width: 120px; 
+    background-color: #7b1fa2;
+    color: white;
+    transition: 0.7s;
+}
+input[type=submit]:hover{
+    background-color: #4a0072;
+    cursor: pointer;
+    transition: 0.7s;;
+}
