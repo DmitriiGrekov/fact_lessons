@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
+menu{
+    display: flex;
+}
+
+menu a{
+    text-decoration: none;
+}

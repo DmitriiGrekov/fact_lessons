@@ -1,0 +1,25 @@
+form{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 10px;
+    margin-top: 30px;
+}
+
+label{
+    border-right: 1px solid silver ;
+    margin-right: 10px;
+
+}
+div{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
