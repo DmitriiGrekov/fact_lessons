@@ -1,5 +1,14 @@
 <?
+// Логин: admin
+// Пароль: 123 
+// 
+// 
+// 
+// 
+// 
+
     session_start();
+
     $username = $_POST['username'];
     $login = 'admin';
     $password = $_POST['password'];
