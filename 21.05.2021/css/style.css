@@ -1,0 +1,54 @@
+body,html{
+    background-color: #283593;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container form{
+    width: 300px;
+    padding: 0;
+}
+input[type=text]{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 92%;
+}
+input[type=submit]{
+    width: 100%;
+}
+.container label{
+    color:#fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+input[type=submit]{
+    padding:10px;
+    color: #fff;
+    background-color: #9c27b0;
+    border:none;
+
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #6a0080;
+}
+
+select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px
+}
+
+.message{
+    background-color: lime;
+    color:#fff;
+    padding: 10px;
+    
+}
